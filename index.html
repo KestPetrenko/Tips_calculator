@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <title>tips</title>
+</head>
+
+<body>
+    <div class="container">
+        <span class="spanTips">Tips calculator</span>
+        <hr>
+        <div class="divSum">
+            <span class="sum">Сумма</span>
+            <input id="input1" type="text"> <br />
+        </div>
+        <div class="divPeople">
+            <span class="people">Количество людей</span>
+            <input id="input2" type="text"> <br />
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Качество обслуживания</button>
+            <div class="dropdown-content">
+                <button id="add5">5%</button>
+                <button id="add10">10%</button>
+                <button id="add15">15%</button>
+                <button id="add20">20%</button>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div id="res"></div>
+</body>
+<script src="script/script.js"></script>
+</html>
