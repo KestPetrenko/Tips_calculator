@@ -14,26 +14,26 @@ let sum;
 
 
 function proc5() {
-    sum = Math.ceil(((Number(input1.value) * 5) / 100 * Number(input2.value)));
+    sum = Math.ceil(((Number(input1.value) * 5) / 100 / Number(input2.value)));
     res.textContent = "Сумма на каждого по: " + sum + " грн";
     showTime();
     console.log(res.textContent)
 }
 
 function proc10() {
-    sum = Math.ceil(((Number(input1.value) * 10) / 100 * Number(input2.value)));
+    sum = Math.ceil(((Number(input1.value) * 10) / 100 / Number(input2.value)));
     res.textContent = "Сумма на каждого по: " + sum + " грн";
     showTime();
 }
 
 function proc15() {
-    sum = Math.ceil(((Number(input1.value) * 15) / 100 * Number(input2.value)));
+    sum = Math.ceil(((Number(input1.value) * 15) / 100 / Number(input2.value)));
     res.textContent = "Сумма на каждого по: " + sum + " грн";
     showTime();
 }
 
 function proc20() {
-    sum = Math.ceil(((Number(input1.value) * 20) / 100 * Number(input2.value)));
+    sum = Math.ceil(((Number(input1.value) * 20) / 100 / Number(input2.value)));
     res.textContent = "Сумма на каждого по: " + sum + " грн";
     showTime();
 }
